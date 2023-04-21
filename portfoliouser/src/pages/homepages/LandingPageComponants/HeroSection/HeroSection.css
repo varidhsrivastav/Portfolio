@@ -174,4 +174,63 @@
   .animated-item {
     font-size: 50px;
   }
+}
+@media (max-width: 500px) {
+  .HeroSectionMainComponants .HeroSectionComponants {
+    flex-direction: column-reverse;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent {
+    width: 100%;
+    margin: 10em 0 0 0;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent .HeroIntroText {
+    font-size: 38px;
+    font-weight: 900;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSecImage {
+    width: 50%;
+    margin: 150px 0 -5em 0;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSecImage img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .webVector {
+    position: absolute;
+    top: 0%;
+    left: -5%;
+    transform: rotate(-90deg);
+  }
+  .HeroSectionMainComponants .btn {
+    width: 100%;
+    margin: 0.5em 0 !important;
+  }
+  .HeroSectionMainComponants .HeroSectionSocialIcon {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 1%;
+    justify-content: center;
+    margin: 50px 0 0 35px;
+    right: 1%;
+  }
+  .HeroSectionMainComponants .HeroSectionSocialIcon a img {
+    width: 40px;
+    height: 40px;
+  }
+  .HeroSectionMainComponants .HeroSectionSocialIcon a img:hover {
+    transform: scale(1.5);
+    animation: ease-in-out 2s linear infinite 0s;
+    cursor: pointer;
+  }
+  .animated-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    min-width: 340px;
+    position: relative;
+  }
+  .animated-item {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=HeroSection.css.map */
