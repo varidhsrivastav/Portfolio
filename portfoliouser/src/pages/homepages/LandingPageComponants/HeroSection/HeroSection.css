@@ -1,0 +1,177 @@
+.HeroSectionMainComponants .HeroSectionComponants {
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent {
+  width: 65%;
+}
+.HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent small {
+  color: #5b5b5b;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50px;
+  letter-spacing: 0.2px;
+}
+.HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent .HeroIntroText {
+  font-size: 48px;
+  font-weight: 900;
+}
+.HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent p {
+  margin: 2.5em 0 0 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #FFF;
+}
+.HeroSectionMainComponants .HeroSectionComponants .HeroSecImage {
+  width: 35%;
+}
+.HeroSectionMainComponants .HeroSectionComponants .HeroSecImage img {
+  border-radius: 50%;
+  width: 100%;
+}
+.HeroSectionMainComponants .HeroSectionComponants .webVector {
+  position: absolute;
+  top: 0%;
+  left: -1%;
+  transform: rotate(-90deg);
+}
+.HeroSectionMainComponants .HeroSectionSocialIcon {
+  position: fixed;
+  top: 30%;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.HeroSectionMainComponants .HeroSectionSocialIcon a img {
+  width: 50px;
+  height: 50px;
+}
+.HeroSectionMainComponants .HeroSectionSocialIcon a img:hover {
+  transform: scale(1.5);
+  animation: ease-in-out 2s linear infinite 0s;
+  cursor: pointer;
+}
+
+.animated {
+  position: relative;
+}
+
+.animated-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  min-width: 500px;
+  position: relative;
+}
+
+.animated-item {
+  font-size: 60px;
+  line-height: inherit;
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  animation: BottomTotop 6s linear infinite 0s;
+  color: #2ECDA3;
+}
+
+.animated-item:nth-child(2n+2) {
+  animation-delay: 2s;
+}
+
+.animated-item:nth-child(3n+3) {
+  animation-delay: 4s;
+}
+
+@keyframes BottomTotop {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  30% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@media (max-width: 900px) {
+  .HeroSectionMainComponants .HeroSectionComponants {
+    flex-direction: column-reverse;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSectionContent {
+    width: 100%;
+    margin: 10em 0 0 0;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSecImage {
+    width: 50%;
+    margin-bottom: -5em;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .HeroSecImage img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  .HeroSectionMainComponants .HeroSectionComponants .webVector {
+    position: absolute;
+    top: 0%;
+    left: -5%;
+    transform: rotate(-90deg);
+  }
+  .HeroSectionMainComponants .btn {
+    width: 100%;
+    margin: 0.5em 0 !important;
+  }
+  .HeroSectionMainComponants .HeroSectionSocialIcon {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 1%;
+    justify-content: center;
+    margin: -80px 0 0 0;
+    right: 1%;
+  }
+  .HeroSectionMainComponants .HeroSectionSocialIcon a img {
+    width: 50px;
+    height: 50px;
+  }
+  .HeroSectionMainComponants .HeroSectionSocialIcon a img:hover {
+    transform: scale(1.5);
+    animation: ease-in-out 2s linear infinite 0s;
+    cursor: pointer;
+  }
+  .animated-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    min-width: 450px;
+    position: relative;
+  }
+  .animated-item {
+    font-size: 50px;
+  }
+}/*# sourceMappingURL=HeroSection.css.map */

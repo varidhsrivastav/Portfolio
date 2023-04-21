@@ -1,0 +1,43 @@
+.MyExpertiesMainComponants {
+  color: #fff;
+  margin: 0 0 200px 0;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants h1 {
+  text-align: center;
+  font-size: 64px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody {
+  flex: 1;
+  border: 1px solid #fff;
+  padding: 20px 20px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead {
+  display: flex;
+  gap: 1em;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead h3 {
+  color: #fff;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead h3 u {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead .MyExpertiesComponantsBodyIcon img {
+  width: 50px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodycont {
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  .MyExpertiesMainComponants {
+    color: #fff;
+    margin: 100px 0;
+  }
+}/*# sourceMappingURL=MyExperties.css.map */

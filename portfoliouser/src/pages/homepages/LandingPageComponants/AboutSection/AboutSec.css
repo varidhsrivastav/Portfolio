@@ -1,0 +1,45 @@
+.aboutHome {
+  display: flex;
+  margin: 120px 0 100px 0;
+}
+.aboutHome .aboutimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+.aboutHome .about-homecontent {
+  padding: 0 0 0 50px;
+  align-self: center;
+}
+.aboutHome .about-homecontent h3 {
+  background-color: #2ECDA3;
+  width: 30%;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .aboutHome {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0 100px 0;
+  }
+  .aboutHome .aboutimg {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .aboutHome .aboutimg img {
+    width: 90%;
+    border-radius: 10px;
+  }
+  .aboutHome .about-homecontent {
+    padding: 0 10px;
+    align-self: center;
+  }
+  .aboutHome .about-homecontent h3 {
+    background-color: #2ECDA3;
+    width: 40%;
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=AboutSec.css.map */

@@ -1,0 +1,97 @@
+.TestimonialMainComponants{
+    padding: 200px;
+    background-color: #000;
+    .TestimonialComponant{
+        display: flex;
+        gap: 0em;
+        .ContactMeSection{
+            width: 50%;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .testimonialsemail{
+                margin: 100px 0 0 0;
+                a{
+                    h5{
+                        &:hover{
+                            background-color: #923FE6;
+                            transition: ease-in-out;
+                            padding: 10px;
+                            width: 90%;
+                        }
+                    }
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        #t1{
+            background-color: #923FE6;
+        }
+        #t2{
+            background-color: #0067DC;
+        }
+        .testimonials{
+            width: 50%;
+            .testimonilas1 {
+                    padding: 20px;
+            
+                    .testiconimg {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        padding: 0 0 30px 0;
+            
+                        .testicon {
+                            img{
+                                width: 70px;
+                            }
+                        }
+            
+                        .testimage {
+                            width: 100%;
+                            text-align: right;
+            
+                            img {
+                                border-radius: 50px;
+                                border: 5px solid white;
+                                width: 100px;
+                                height: 100px;
+                            }
+                        }
+                    }
+            
+                    .testcontent {
+                        p {
+                            font-weight: 500;
+                        }
+                    }
+                }
+        }
+    }
+
+}
+@media(max-width:900px){
+    .TestimonialMainComponants{
+        padding: 100px 0;
+        .TestimonialComponant{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 0em;
+            .ContactMeSection{
+                width: 100%;
+            }
+            .testimonials{
+                width: 100%;
+                .testimonilas1 {
+                        padding: 20px;
+                    }
+            }
+        }
+    
+    }
+}

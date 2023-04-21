@@ -1,0 +1,157 @@
+.ProjectMainContainer {
+    padding: 100px;
+    .ProjectContainer {
+        .maintile{
+            padding: 0 0 50px 0;
+            text-align: center;
+            h1{
+                font-size: 64px;
+            }
+        }
+        .FeaturedProjectBody {
+            padding: 50px 0;
+            .FeaturedProjectCount {
+                display: flex;
+                .fprojectid{
+                    width: 10%;
+                    align-items: center;
+                    p{
+                        padding: 0;
+                        margin: 0;
+                        font-weight: 900;
+                        font-size: 64px;
+                        color: #2ECDA3;
+                    }
+                }
+                .FeaturedProjectLine{
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    .fpline{
+                        text-align: center;
+                        width: 95%;
+                        margin: 10px 0 0 0;
+                        // content: "";
+                        border: 1px solid white;
+                    }
+                }
+                a{
+                    align-items: center;
+                    display: flex;
+                    margin: 0 auto;
+                    .FPicon{
+                        width: 10%;
+                        i{
+                            color: #2ECDA3;
+                            border: 5px solid white;
+                            padding: 20px;
+                            border-radius: 50%;
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+            .FeaturedProjectContent{
+                padding: 20px ;
+                display: flex;
+                align-items: center;
+                .FeatProjectTitleLogo{
+                    img{
+                        width: 200px;
+                    }
+                }
+                .FeaturedProjectDesc{
+                    width: 100%;
+                    p{
+                        margin: 0;
+                        padding: 0;
+                        font-size: 20px;
+                        font-weight: 500;
+                        width: 70%;
+                        text-align: right;
+                    }
+                    display: flex;
+                    justify-content: end;
+                }
+            }
+        }
+    }
+}
+@media (max-width:900px){
+    .ProjectMainContainer {
+        padding: 50px 0 ;
+        .ProjectContainer {
+            .maintile{
+                padding: 0 0 10px 0;
+                text-align: center;
+                h1{
+                    font-size: 40px;
+                }
+            }
+            .FeaturedProjectBody {
+                padding: 10px 0;
+                width: 100%;
+                .FeaturedProjectCount {
+                    display: flex;
+                    align-items: center;
+                    .fprojectid{
+                        width: 20%;
+                        p{
+                            font-size: 48px;
+                        }
+                    }
+                    .FeaturedProjectLine{
+                        width: 80%;
+                        display: flex;
+                        align-items: center;
+                        .fpline{
+                            text-align: center;
+                            width: 95%;
+                            margin: 10px 0 0 0;
+                            border: 1px solid white;
+                        }
+                    }
+                    a{
+                        .FPicon{
+                            width: 10%;
+                            i{
+                                color: #2ECDA3;
+                                border: 5px solid white;
+                                padding: 20px;
+                                border-radius: 50%;
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                }
+                .FeaturedProjectContent{
+                    padding: 20px ;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5em;
+                    align-items: center;
+                    .FeatProjectTitleLogo{
+                        width: 100%;
+                        img{
+                            width: 200px;
+                        }
+                    }
+                    .FeaturedProjectDesc{
+                        width: 100%;
+                        p{
+                            margin: 0;
+                            padding: 0;
+                            font-size: 20px;
+                            font-weight: 500;
+                            width: 100%;
+                            text-align: left;
+                        }
+                        display: flex;
+                        justify-content: end;
+                    }
+                }
+            }
+        }
+    }
+}

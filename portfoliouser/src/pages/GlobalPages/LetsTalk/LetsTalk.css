@@ -1,0 +1,33 @@
+.LetsTalkMainComponants {
+  margin: 100px 0;
+  color: #fff;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents p {
+  margin: 0 0 -25px 0;
+  padding: 0;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka {
+  display: flex;
+  align-items: center;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka h1 {
+  width: 27%;
+  font-size: 64px;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka .LetsTalkIcom {
+  width: 70%;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka .LetsTalkIcom:hover i {
+  font-size: 104px;
+  text-align: right;
+}
+.LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka .LetsTalkIcom i {
+  width: 100%;
+  padding: 0 0 0 0.5em;
+  font-size: 84px;
+}/*# sourceMappingURL=LetsTalk.css.map */

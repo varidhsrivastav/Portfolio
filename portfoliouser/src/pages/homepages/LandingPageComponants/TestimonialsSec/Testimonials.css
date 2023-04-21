@@ -1,0 +1,85 @@
+.TestimonialMainComponants {
+  padding: 200px;
+  background-color: #000;
+}
+.TestimonialMainComponants .TestimonialComponant {
+  display: flex;
+  gap: 0em;
+}
+.TestimonialMainComponants .TestimonialComponant .ContactMeSection {
+  width: 50%;
+}
+.TestimonialMainComponants .TestimonialComponant .ContactMeSection h1 {
+  font-size: 50px;
+}
+.TestimonialMainComponants .TestimonialComponant .ContactMeSection p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.TestimonialMainComponants .TestimonialComponant .ContactMeSection .testimonialsemail {
+  margin: 100px 0 0 0;
+}
+.TestimonialMainComponants .TestimonialComponant .ContactMeSection .testimonialsemail a {
+  text-decoration: none;
+  color: white;
+}
+.TestimonialMainComponants .TestimonialComponant .ContactMeSection .testimonialsemail a h5:hover {
+  background-color: #923FE6;
+  transition: ease-in-out;
+  padding: 10px;
+  width: 90%;
+}
+.TestimonialMainComponants .TestimonialComponant #t1 {
+  background-color: #923FE6;
+}
+.TestimonialMainComponants .TestimonialComponant #t2 {
+  background-color: #0067DC;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials {
+  width: 50%;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 {
+  padding: 20px;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 .testiconimg {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 0 30px 0;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 .testiconimg .testicon img {
+  width: 70px;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 .testiconimg .testimage {
+  width: 100%;
+  text-align: right;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 .testiconimg .testimage img {
+  border-radius: 50px;
+  border: 5px solid white;
+  width: 100px;
+  height: 100px;
+}
+.TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 .testcontent p {
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .TestimonialMainComponants {
+    padding: 100px 0;
+  }
+  .TestimonialMainComponants .TestimonialComponant {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0em;
+  }
+  .TestimonialMainComponants .TestimonialComponant .ContactMeSection {
+    width: 100%;
+  }
+  .TestimonialMainComponants .TestimonialComponant .testimonials {
+    width: 100%;
+  }
+  .TestimonialMainComponants .TestimonialComponant .testimonials .testimonilas1 {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=Testimonials.css.map */
