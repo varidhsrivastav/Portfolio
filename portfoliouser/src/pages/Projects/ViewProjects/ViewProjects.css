@@ -1,0 +1,124 @@
+.ViewProjectMainComponants .ViewProjectCompImage {
+  display: flex;
+  justify-content: center;
+}
+.ViewProjectMainComponants .ViewProjectCompImage img {
+  width: 70%;
+  border-radius: 0 0 50px 50px;
+}
+.ViewProjectMainComponants .ViewProjectComponants {
+  padding: 50px 0;
+}
+.ViewProjectMainComponants .ViewProjectComponants hr {
+  background-color: #fff;
+}
+.ViewProjectMainComponants .ViewProjectComponants .vpTitle img {
+  width: 30%;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes {
+  width: 60%;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 20px 0;
+  align-items: center;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte h3 {
+  color: #fff;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vpTitle {
+  width: 40%;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vptilteans {
+  width: 70%;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectfulldecr {
+  width: 40%;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectfulldecr p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.ViewProjectMainComponants .ViewProjectComponants .projectDescGallery {
+  text-align: center;
+}
+.ViewProjectMainComponants .ViewProjectComponants .projectDescGallery h3 {
+  padding: 50px 0;
+}
+.ViewProjectMainComponants .ViewProjectComponants .projectDescGallery img {
+  width: 100%;
+}
+
+h4 {
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .ViewProjectMainComponants {
+    padding: 0 10px;
+  }
+  .ViewProjectMainComponants .ViewProjectCompImage {
+    display: flex;
+    justify-content: center;
+  }
+  .ViewProjectMainComponants .ViewProjectCompImage img {
+    width: 90%;
+    border-radius: 0 0 50px 50px;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants {
+    padding: 50px 0;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants hr {
+    background-color: #fff;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .vpTitle img {
+    width: 30%;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes {
+    width: 100%;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte h3 {
+    color: #fff;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vpTitle {
+    width: 40%;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vptilteans {
+    width: 70%;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectfulldecr {
+    width: 100%;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectfulldecr p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .projectDescGallery {
+    text-align: center;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .projectDescGallery h3 {
+    padding: 50px 0;
+  }
+  .ViewProjectMainComponants .ViewProjectComponants .projectDescGallery img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=ViewProjects.css.map */
