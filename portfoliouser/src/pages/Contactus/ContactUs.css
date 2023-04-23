@@ -1,0 +1,193 @@
+.ContactUsMainComponants {
+  margin: 200px 0;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle {
+  margin: 100px 0;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle h1 {
+  font-size: 64px;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle p {
+  width: 70%;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm {
+  width: 80%;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent {
+  padding: 30px 0;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormLabel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormLabel .ContFormLabelNumber h5 {
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid white;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormLabel .ContFormLabelText label {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput {
+  padding: 0 0 0 40px;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput input {
+  width: 90%;
+  background-color: transparent;
+  border-bottom: 1px solid #2ECDA3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  color: #fff;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput input::-moz-placeholder {
+  color: white;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput input::placeholder {
+  color: white;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContUsBtn {
+  display: flex;
+  justify-content: end;
+  padding: 0 5rem 0 0;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsPhoneEmail {
+  width: 30%;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsPhoneEmail h5 {
+  color: #fff;
+}
+.ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsPhoneEmail .ContactUsEmail {
+  padding: 20px 0;
+}
+@media (max-width: 900px) {
+  .ContactUsMainComponants {
+    margin: 200px 0;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle {
+    margin: 100px 0;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle h1 {
+    font-size: 64px;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle p {
+    width: 100%;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm {
+    width: 100%;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent {
+    padding: 30px 0;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormLabel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormLabel .ContFormLabelNumber h5 {
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormLabel .ContFormLabelText label {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput {
+    padding: 0 0 0 40px;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput input {
+    width: 90%;
+    background-color: transparent;
+    border-bottom: 1px solid #2ECDA3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    color: #fff;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput input::-moz-placeholder {
+    color: white;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContactForm .ContFormInputContent .ContFormInput input::placeholder {
+    color: white;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsCompoForm .ContUsBtn {
+    display: flex;
+    justify-content: end;
+    padding: 0 5rem 0 0;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsPhoneEmail {
+    width: 30%;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsPhoneEmail h5 {
+    color: #fff;
+  }
+  .ContactUsMainComponants .ContactUsComponants .ContactUsCompMainForm .ContactUsPhoneEmail .ContactUsEmail {
+    padding: 20px 0;
+  }
+}
+/* CSS */
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=ContactUs.css.map */

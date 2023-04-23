@@ -3,6 +3,7 @@
 .HeroSectionMainComponants {
     .HeroSectionComponants {
         min-height: 100vh;
+        // max-width: 50%;
         color: #fff;
         display: flex;
         align-items: center;
@@ -12,10 +13,8 @@
 
         .HeroSectionContent {
             width: 65%;
-
             small {
                 color: #5b5b5b;
-                
                 font-size: 14px;
                 font-weight: bold;
                 border-radius: 50px;

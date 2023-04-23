@@ -4,7 +4,6 @@ import AboutSection from './LandingPageComponants/AboutSection/AboutSection';
 import CertificateSec from './LandingPageComponants/Certificates/CertificateSec';
 import HeroSection from './LandingPageComponants/HeroSection/HeroSection';
 import MyExperties from './LandingPageComponants/MyExperties/MyExperties';
-import ProjectSetion from './LandingPageComponants/ProjetsSection/ProjectSetion';
 import TimelineSection from './LandingPageComponants/TimelineSection/TimelineSection';
 import "./LnadingPage.css";
 import Testimonials from './LandingPageComponants/TestimonialsSec/Testimonials';
@@ -18,7 +17,6 @@ const Landingpage = () => {
       <AboutSection/>
       <Project/>
       <LetsTalk/>
-      {/* <ProjectSetion/> */}
       <TimelineSection/>
       <CertificateSec/>
       <Testimonials/>

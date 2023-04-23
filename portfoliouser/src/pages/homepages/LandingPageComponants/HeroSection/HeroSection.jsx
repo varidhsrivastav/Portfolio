@@ -10,7 +10,7 @@ import facebook from "./Image/facebook.png";
 import instagram from "./Image/instagram.png";
 const HeroSection = () => {
   return (
-    <div className="HeroSectionMainComponants">
+    <div className="HeroSectionMainComponants containe">
       <section className="HeroSectionComponants container">
         <div data-aos="fade-right" className="HeroSectionContent">
           <div className="about-text">
