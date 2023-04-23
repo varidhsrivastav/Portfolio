@@ -76,6 +76,13 @@ const ViewProjects = () => {
             <img src={cc7} alt="" />
           </div>
         </div>
+        <hr />
+        <div className="VisitProject">
+            <h5>To see full project visit </h5>
+           <button className="button-18">
+                visit 
+           </button>
+        </div>
       </div>
     </div>
   );

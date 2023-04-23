@@ -30,7 +30,7 @@
   padding: 20px 0;
   align-items: center;
 }
-.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte h3 {
+.ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte h3, .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte h5 {
   color: #fff;
 }
 .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vpTitle {
@@ -55,6 +55,13 @@
 .ViewProjectMainComponants .ViewProjectComponants .projectDescGallery img {
   width: 100%;
 }
+.ViewProjectMainComponants .ViewProjectComponants .VisitProject {
+  display: flex;
+}
+.ViewProjectMainComponants .ViewProjectComponants .VisitProject h5 {
+  width: 90%;
+  color: #fff;
+}
 
 h4 {
   color: #fff;
@@ -69,7 +76,7 @@ h4 {
     justify-content: center;
   }
   .ViewProjectMainComponants .ViewProjectCompImage img {
-    width: 90%;
+    width: 100%;
     border-radius: 0 0 50px 50px;
   }
   .ViewProjectMainComponants .ViewProjectComponants {
