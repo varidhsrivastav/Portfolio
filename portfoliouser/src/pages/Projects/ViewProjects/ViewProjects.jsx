@@ -27,7 +27,7 @@ const ViewProjects = () => {
                 <h3> Category</h3>
               </div>
               <div className="vptilteans">
-                <h3>web application</h3>
+                <h5>web application</h5>
               </div>
             </div>
             <div className="vprojectdescTilte">
@@ -35,7 +35,7 @@ const ViewProjects = () => {
                 <h3> Started year</h3>
               </div>
               <div className="vptilteans">
-                <h4>Mrach 2023 - April 2023 </h4>
+                <h5>Mrach 2023 - April 2023 </h5>
               </div>
             </div>
             <div className="vprojectdescTilte">
@@ -43,7 +43,7 @@ const ViewProjects = () => {
                 <h3> Tech used </h3>
               </div>
               <div className="vptilteans">
-                <h3>web application</h3>
+                <h5>web application</h5>
               </div>
             </div>
             <div className="vprojectdescTilte">
@@ -51,7 +51,7 @@ const ViewProjects = () => {
                 <h3>Project Link</h3>
               </div>
               <div className="vptilteans">
-                <h3>web application</h3>
+                <h5>web application</h5>
               </div>
             </div>
           </div>
