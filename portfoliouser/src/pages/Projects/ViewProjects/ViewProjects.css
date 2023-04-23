@@ -93,7 +93,7 @@ h4 {
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    padding: 20px 0;
+    padding: 10px 0;
     align-items: center;
   }
   .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte h3 {
@@ -104,17 +104,17 @@ h4 {
     color: #fff;
   }
   .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vpTitle {
-    width: 40%;
+    width: 50%;
   }
   .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectdescTiltes .vprojectdescTilte .vptilteans {
-    width: 70%;
+    width: 50%;
   }
   .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectfulldecr {
     width: 100%;
   }
   .ViewProjectMainComponants .ViewProjectComponants .VprojectmainDesc .vprojectfulldecr p {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
   }
   .ViewProjectMainComponants .ViewProjectComponants .projectDescGallery {
     text-align: center;

@@ -57,23 +57,24 @@ const ViewProjects = () => {
           </div>
           <div className="vprojectfulldecr">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-              unde non accusantium aliquam velit, maiores nam quis impedit
-              soluta fugiat!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit repudiandae aut vitae enim impedit fugit,
+              aspernatur, minima officia dolorem maiores itaque adipisci aliquid
+              accusamus. Unde velit dicta alias autem consectetur.
             </p>
           </div>
         </div>
         <div className="projectDescGallery">
-            <h3>Project Gallery</h3>
-            <div className="ProjectsImages">
-                <img src={titlePhot} alt="" />
-                <img src={cc2} alt="" />
-                <img src={cc3} alt="" />
-                <img src={cc4} alt="" />
-                <img src={cc5} alt="" />
-                <img src={cc6} alt="" />
-                <img src={cc7} alt="" />
-            </div>
+          <h3>Project Gallery</h3>
+          <div className="ProjectsImages">
+            <img src={titlePhot} alt="" />
+            <img src={cc2} alt="" />
+            <img src={cc3} alt="" />
+            <img src={cc4} alt="" />
+            <img src={cc5} alt="" />
+            <img src={cc6} alt="" />
+            <img src={cc7} alt="" />
+          </div>
         </div>
       </div>
     </div>
