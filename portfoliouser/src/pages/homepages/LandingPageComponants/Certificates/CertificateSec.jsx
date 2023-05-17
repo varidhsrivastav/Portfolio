@@ -27,7 +27,6 @@ const CertificateSec = () => {
                             spaceBetween={5}
                             slidesPerView={1}
                             modules={[Autoplay, Pagination, Navigation, ]}
-                            navigation = {true}
                             autoplay={true}
                             loop={Infinity}
                             pagination={{ el: '.swiper-pagination', clickable: true }}

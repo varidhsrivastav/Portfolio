@@ -1,6 +1,6 @@
 .certificateh {
   text-align: center;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .certificateh h1,
@@ -9,7 +9,7 @@
 }
 
 .certificateh img {
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   border: 1px solid black;
 }/*# sourceMappingURL=CertificateSec.css.map */
