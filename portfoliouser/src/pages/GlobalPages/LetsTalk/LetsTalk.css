@@ -52,13 +52,13 @@
   }
   .LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka h1 {
     width: 100%;
-    font-size: 48px;
+    font-size: 40px;
   }
   .LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka .LetsTalkIcom {
     width: 70%;
   }
   .LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka .LetsTalkIcom:hover i {
-    font-size: 84px;
+    font-size: 64px;
     text-align: right;
   }
   .LetsTalkMainComponants .LetsTalkComponants .LetsTalkComponantsContents .LetsTalka .LetsTalkIcom i {
