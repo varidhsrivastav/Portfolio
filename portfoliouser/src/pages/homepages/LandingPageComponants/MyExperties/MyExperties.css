@@ -1,10 +1,22 @@
 .MyExpertiesMainComponants {
   color: #fff;
-  margin: 0 0 200px 0;
+  margin: 0 0 300px 0;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants {
+  position: relative;
 }
 .MyExpertiesMainComponants .MyExpertiesComponants h1 {
   text-align: center;
   font-size: 64px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .bgimg {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  text-align: center;
+  z-index: 1;
+  opacity: 0.3;
+  width: 60%;
 }
 .MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent {
   display: flex;
@@ -14,6 +26,7 @@
 }
 .MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody {
   flex: 1;
+  z-index: 2;
   border: 1px solid #fff;
   padding: 20px 20px;
 }

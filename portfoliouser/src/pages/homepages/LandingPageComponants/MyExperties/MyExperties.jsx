@@ -3,6 +3,7 @@ import "./MyExperties.css";
 import monitor from "./image/monitor (1).png";
 import project from "./image/project.png";
 import react from "./image/react.png";
+import bgimg from "./image/hello-world-html-code.webp";
 const MyExperties = () => {
     const experties =[
         {
@@ -28,6 +29,7 @@ const MyExperties = () => {
     <div className='MyExpertiesMainComponants'>
       <div className="MyExpertiesComponants container">
         <h1>My Experties</h1>
+        <img src={bgimg} alt="" className='bgimg'/>
         <div className="MyExpertiesComponantsContent">
         {/* {
             experties.map((data)=>{

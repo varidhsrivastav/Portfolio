@@ -1,0 +1,154 @@
+.WhyMeMainComponants {
+    background-color: #0A0A0A;
+    padding: 100px 0;
+    h5{
+        color: #595959;
+    }
+    .WhyMeComponant {
+        .WhyMeTitle {
+            text-align: center;
+        }
+        .WhyMECardsContainer {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin: 100px 0;
+            gap: 1rem;
+
+            .WhyMECardBodyCont {
+                // width: 22%;
+            }
+
+            #whyct2,
+            #whyct4 {
+                padding-top: 80px;
+            }
+
+            #whymecard1 {
+                h3 {
+                    color: #007fff;
+                    border: 1px solid #007fff;
+                    background-color: #0A0A0A;
+                    padding: 10px 20px;
+                    border-radius: 50% + 50%;
+                }
+
+                h4 {
+                    color: #007fff !important;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    color: #fff;
+                    font-size: 25px;
+                    line-height: 130%;
+                    font-weight: 600;
+                }
+            }
+
+            #whymecard2 {
+
+                h3 {
+                    color: #ff9500;
+                    border: 1px solid #ff9500;
+                    background-color: #0A0A0A;
+                    padding: 10px 20px;
+                    border-radius: 50% + 50%;
+                }
+
+                h4 {
+                    color: #ff9500 !important;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    color: #fff;
+                    font-size: 25px;
+                    line-height: 130%;
+                    font-weight: 600;
+                }
+            }
+
+            #whymecard3 {
+                h3 {
+                    color: #ef705e;
+                    border: 1px solid #ef705e;
+                    background-color: #0A0A0A;
+                    padding: 10px 20px;
+                    border-radius: 50% + 50%;
+                }
+
+                h4 {
+                    color: #ef705e !important;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    color: #fff;
+                    font-size: 25px;
+                    line-height: 130%;
+                    font-weight: 600;
+                }
+            }
+
+            #whymecard4 {
+                h3 {
+                    color: #fcd533;
+                    border: 1px solid #fcd533;
+                    background-color: #0A0A0A;
+                    padding: 10px 20px;
+                    border-radius: 50% + 50%;
+                }
+
+                h4 {
+                    color: #fcd533 !important;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    color: #fff;
+                    font-size: 25px;
+                    line-height: 130%;
+                    font-weight: 600;
+                }
+            }
+
+            .WhyMECardBody {
+                position: relative;
+                border: 2px solid #131313;
+                padding: 30px 40px 10px;
+                border-radius: 8px;
+                // width: 22%;
+                // max-width: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+
+
+
+                .WhyMecardNum {
+                    position: absolute;
+                    top: -25px;
+                    margin-bottom: 20px;
+
+
+                }
+            }
+        }
+    }
+}
+@media (max-width:900px){
+    .WhyMeMainComponants {
+        padding: 50px 0;
+        h1{
+            font-size: 35px;
+        }
+        .WhyMeComponant {
+            .WhyMECardsContainer {
+                flex-direction: column;
+                text-align: center;
+                gap: 3rem;
+                #whyct2,
+                #whyct4 {
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+}

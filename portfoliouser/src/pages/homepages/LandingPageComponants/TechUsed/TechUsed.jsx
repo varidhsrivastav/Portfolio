@@ -27,6 +27,7 @@ import react from "./image/find/react.png";
 import node from "./image/find/nodejs.png";
 import powerpoint from "./image/find/powerpoint.png";
 
+
 const Tech = () => {
   return (
     <>
