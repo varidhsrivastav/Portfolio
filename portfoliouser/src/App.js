@@ -9,9 +9,9 @@ import ViewProjects from "./pages/Projects/ViewProjects/ViewProjects";
 function App() {
   return (
     <div className="App">
-      {/* <Landingpage /> */}
+      <Landingpage />
       {/* <ContactUs/> */}
-      <ViewProjects/>
+      {/* <ViewProjects/> */}
       <Footer />
     </div>
   );

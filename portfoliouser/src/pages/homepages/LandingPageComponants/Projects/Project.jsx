@@ -1,6 +1,8 @@
 import React from "react";
 import "./FeaturedProject.css";
 import logo1 from "./image/logodf.png";
+import CleanCloset from "./image/cc1.png";
+import GetKamra from "./image/Screenshot (87).png";
 const Project = () => {
   const Projects = [
     {
@@ -52,11 +54,14 @@ const Project = () => {
             </a>
           </div>
           <div className="FeaturedProjectContent">
+          <div className="FeatureProjTitle">
+                <img src={CleanCloset} alt="" />
+            </div>
             <div className="FeatProjectTitleLogo">
               <img src={logo1} alt="" />
             </div>
             {/* <div className="FeatureProjTitle">
-                <h1>CleanCloset</h1>
+                <img src={CleanCloset} alt="" />
             </div> */}
             <div className="FeaturedProjectDesc">
               <p>
@@ -82,11 +87,11 @@ const Project = () => {
           </div>
           <div className="FeaturedProjectContent">
             <div className="FeatProjectTitleLogo">
-              <img src={logo1} alt="" />
+              <h1>GetKamra</h1>
             </div>
-            {/* <div className="FeatureProjTitle">
-                <h1>CleanCloset</h1>
-            </div> */}
+            <div className="FeatureProjTitle">
+                <img src={GetKamra} alt="" />
+            </div>
             <div className="FeaturedProjectDesc">
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

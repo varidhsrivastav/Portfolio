@@ -1,21 +1,27 @@
 .ProjectMainContainer {
     padding: 100px;
+
     .ProjectContainer {
-        .maintile{
+        .maintile {
             padding: 0 0 50px 0;
             text-align: center;
-            h1{
+
+            h1 {
                 font-size: 64px;
             }
         }
+
         .FeaturedProjectBody {
             padding: 50px 0;
+
             .FeaturedProjectCount {
                 display: flex;
-                .fprojectid{
+
+                .fprojectid {
                     width: 10%;
                     align-items: center;
-                    p{
+
+                    p {
                         padding: 0;
                         margin: 0;
                         font-weight: 900;
@@ -23,11 +29,13 @@
                         color: #2ECDA3;
                     }
                 }
-                .FeaturedProjectLine{
+
+                .FeaturedProjectLine {
                     width: 80%;
                     display: flex;
                     align-items: center;
-                    .fpline{
+
+                    .fpline {
                         text-align: center;
                         width: 95%;
                         margin: 10px 0 0 0;
@@ -35,13 +43,16 @@
                         border: 1px solid white;
                     }
                 }
-                a{
+
+                a {
                     align-items: center;
                     display: flex;
                     margin: 0 auto;
-                    .FPicon{
+
+                    .FPicon {
                         width: 10%;
-                        i{
+
+                        i {
                             color: #2ECDA3;
                             border: 5px solid white;
                             padding: 20px;
@@ -51,25 +62,38 @@
                     }
                 }
             }
-            .FeaturedProjectContent{
-                padding: 20px ;
+
+            .FeaturedProjectContent {
+                padding: 20px;
                 display: flex;
                 align-items: center;
-                .FeatProjectTitleLogo{
-                    img{
+                gap: 2rem;
+                .FeatProjectTitleLogo {
+                    img {
                         width: 200px;
                     }
                 }
-                .FeaturedProjectDesc{
+
+                .FeatureProjTitle {
                     width: 100%;
-                    p{
+                    img {
+                        border-radius: 20px;
+                        width: 100%;
+                    }
+                }
+
+                .FeaturedProjectDesc {
+                    width: 100%;
+
+                    p {
                         margin: 0;
                         padding: 0;
                         font-size: 20px;
                         font-weight: 500;
-                        width: 70%;
+                        width: 90%;
                         text-align: right;
                     }
+
                     display: flex;
                     justify-content: end;
                 }
@@ -77,44 +101,55 @@
         }
     }
 }
-@media (max-width:900px){
+
+@media (max-width:900px) {
     .ProjectMainContainer {
-        padding: 50px 0 ;
+        padding: 50px 0;
+
         .ProjectContainer {
-            .maintile{
+            .maintile {
                 padding: 0 0 10px 0;
                 text-align: center;
-                h1{
+
+                h1 {
                     font-size: 40px;
                 }
             }
+
             .FeaturedProjectBody {
                 padding: 10px 0;
                 width: 100%;
+
                 .FeaturedProjectCount {
                     display: flex;
                     align-items: center;
-                    .fprojectid{
+
+                    .fprojectid {
                         width: 20%;
-                        p{
+
+                        p {
                             font-size: 48px;
                         }
                     }
-                    .FeaturedProjectLine{
+
+                    .FeaturedProjectLine {
                         width: 80%;
                         display: flex;
                         align-items: center;
-                        .fpline{
+
+                        .fpline {
                             text-align: center;
                             width: 95%;
                             margin: 10px 0 0 0;
                             border: 1px solid white;
                         }
                     }
-                    a{
-                        .FPicon{
+
+                    a {
+                        .FPicon {
                             width: 10%;
-                            i{
+
+                            i {
                                 color: #2ECDA3;
                                 border: 5px solid white;
                                 padding: 20px;
@@ -124,22 +159,27 @@
                         }
                     }
                 }
-                .FeaturedProjectContent{
-                    padding: 20px ;
+
+                .FeaturedProjectContent {
+                    padding: 20px;
                     width: 100%;
                     display: flex;
                     flex-direction: column;
                     gap: 1.5em;
                     align-items: center;
-                    .FeatProjectTitleLogo{
+
+                    .FeatProjectTitleLogo {
                         width: 100%;
-                        img{
+
+                        img {
                             width: 200px;
                         }
                     }
-                    .FeaturedProjectDesc{
+
+                    .FeaturedProjectDesc {
                         width: 100%;
-                        p{
+
+                        p {
                             margin: 0;
                             padding: 0;
                             font-size: 20px;
@@ -147,6 +187,7 @@
                             width: 100%;
                             text-align: left;
                         }
+
                         display: flex;
                         justify-content: end;
                     }
