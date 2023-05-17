@@ -3,6 +3,7 @@ import "./FeaturedProject.css";
 import logo1 from "./image/logodf.png";
 import CleanCloset from "./image/cc1.png";
 import GetKamra from "./image/Screenshot (87).png";
+import netflix from "./image/Screenshot (155).png";
 const Project = () => {
   const Projects = [
     {
@@ -116,11 +117,11 @@ const Project = () => {
           </div>
           <div className="FeaturedProjectContent">
             <div className="FeatProjectTitleLogo">
-              <img src={logo1} alt="" />
+              <h1>Netflix Clone</h1>
             </div>
-            {/* <div className="FeatureProjTitle">
-                <h1>CleanCloset</h1>
-            </div> */}
+            <div className="FeatureProjTitle">
+                <img src={netflix} alt="" />
+            </div>
             <div className="FeaturedProjectDesc">
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
