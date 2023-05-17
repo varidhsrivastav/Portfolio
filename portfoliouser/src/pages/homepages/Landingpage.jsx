@@ -8,11 +8,13 @@ import TimelineSection from './LandingPageComponants/TimelineSection/TimelineSec
 import "./LnadingPage.css";
 import Testimonials from './LandingPageComponants/TestimonialsSec/Testimonials';
 import Project from './LandingPageComponants/Projects/Project';
+import Tech from './LandingPageComponants/TechUsed/TechUsed';
 
 const Landingpage = () => {
   return (
     <div className='MainLandingPageComponants'>
       <HeroSection/>
+      <Tech/>
       <MyExperties/>
       <AboutSection/>
       <Project/>

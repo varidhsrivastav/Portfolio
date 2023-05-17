@@ -8,7 +8,22 @@
     text-align: center;
   }
   .certificateh img{
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
     border: 1px solid black;
+  }
+  @media (max-width:900px){
+    .certificateh {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .certificateh h1,
+    .certificateh p{
+      text-align: center;
+    }
+    .certificateh img{
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
   }

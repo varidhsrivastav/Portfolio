@@ -12,6 +12,7 @@ function App() {
       <Landingpage />
       {/* <ContactUs/> */}
       {/* <ViewProjects/> */}
+
       <Footer />
     </div>
   );

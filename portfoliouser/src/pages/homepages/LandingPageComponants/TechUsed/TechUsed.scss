@@ -1,0 +1,24 @@
+.tech-icon-section{
+    margin: 0 0 10rem 0;
+    text-align: center;
+
+  }
+  .tech-icon-body{
+    margin: 5vh 0;
+  }
+.tech-icon{
+    width: 50%;
+  }
+  @media (max-width:900px){
+    .tech-icon-section{
+        margin: 10rem 0;
+        text-align: center;
+    
+      }
+      .tech-icon-body{
+        margin: 5vh 0;
+      }
+    .tech-icon{
+        width: 50%;
+      }
+  }
