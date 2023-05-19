@@ -9,6 +9,7 @@
             border-radius: 10px;
             padding: 30px 20px;
             p{
+                color: #e1e1e1;
                 margin: 0 0 -25px 0;
                 padding: 0;
             }
@@ -25,12 +26,14 @@
                             i{
                                 font-size: 104px;
                                 text-align: right;
+                                color: #D0B02C;
                             } 
                         }
                         i{
                             width: 100%;
                             padding: 0 0 0 .5em;
                             font-size: 84px;
+                            color: #D0B02C;
                         }
                     }
                 }
@@ -43,7 +46,6 @@
         color: #fff;
         .LetsTalkComponants {
             .LetsTalkComponantsContents {
-                border: 1px solid #fff;
                 border-radius: 10px;
                 padding: 30px 20px;
                 p{

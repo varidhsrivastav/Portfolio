@@ -1,6 +1,6 @@
 .MyExpertiesMainComponants {
   color: #fff;
-  margin: 0 0 300px 0;
+  margin: 100px 0 300px 0;
 }
 .MyExpertiesMainComponants .MyExpertiesComponants {
   position: relative;
@@ -24,28 +24,51 @@
   flex-direction: row;
   margin-top: 100px;
 }
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc1 {
+  border-radius: 8px 0 0 8px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc1 h3 {
+  color: #fff;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc1 h3 u {
+  -webkit-text-decoration: 5px underline #EAC630;
+          text-decoration: 5px underline #EAC630;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc2 h3 {
+  color: #fff;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc2 h3 u {
+  -webkit-text-decoration: 5px underline #2ECDA3;
+          text-decoration: 5px underline #2ECDA3;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc3 {
+  border-radius: 0 8px 8px 0;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc3 h3 {
+  color: #ffffff;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent #expertyc3 h3 u {
+  -webkit-text-decoration: 5px underline #EF705E;
+          text-decoration: 5px underline #EF705E;
+}
 .MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody {
   flex: 1;
   z-index: 2;
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4196078431);
   padding: 20px 20px;
 }
 .MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead {
   display: flex;
   gap: 1em;
 }
-.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead h3 {
-  color: #fff;
-}
-.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead h3 u {
-  -webkit-text-decoration: underline red;
-          text-decoration: underline red;
-}
 .MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodyHead .MyExpertiesComponantsBodyIcon img {
   width: 50px;
 }
 .MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodycont {
   padding: 20px;
+}
+.MyExpertiesMainComponants .MyExpertiesComponants .MyExpertiesComponantsContent .MyExpertiesComponantsBody .MyExpertiesComponantsBodycont p {
+  color: #eeeeee;
 }
 
 @media (max-width: 900px) {
