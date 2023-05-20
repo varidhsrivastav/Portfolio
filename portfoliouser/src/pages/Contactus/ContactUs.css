@@ -1,5 +1,6 @@
 .ContactUsMainComponants {
-  margin: 200px 0;
+  padding: 200px 0;
+  background-color: #000;
 }
 .ContactUsMainComponants .ContactUsComponants .ContactUsCompTitle {
   margin: 100px 0;
