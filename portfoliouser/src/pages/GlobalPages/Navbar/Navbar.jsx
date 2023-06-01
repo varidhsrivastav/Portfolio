@@ -37,7 +37,7 @@ var  openNav = ()=>{
                     <li className="nav-item">
                         <Link to="/" className="nav-link"><span data-hover="Home">Home</span></Link>
                     </li><li className="nav-item">
-                        <Link to="/about" className="nav-link"><span data-hover="About">About</span></Link>
+                        <Link to="../../AboutMe/AboutMe" className="nav-link"><span data-hover="About">About</span></Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/project" className="nav-link"><span data-hover="Projects">Projects</span></Link>

@@ -5,12 +5,14 @@ import Footer from "./pages/GlobalPages/Footer/Footer";
 import Landingpage from "./pages/homepages/Landingpage";
 import ContactUs from "./pages/Contactus/ContactUs";
 import ViewProjects from "./pages/Projects/ViewProjects/ViewProjects";
+import AboutMe from "./pages/AboutMe/AboutMe";
 
 function App() {
   return (
     <div className="App">
-      <Landingpage />
+      {/* <Landingpage /> */}
       <Navbar/>
+      <AboutMe/>
       {/* <ContactUs/> */}
       {/* <ViewProjects/> */}
       <Footer />
