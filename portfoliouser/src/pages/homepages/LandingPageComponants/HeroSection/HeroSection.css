@@ -40,6 +40,7 @@
   top: 0%;
   left: -1%;
   transform: rotate(-90deg);
+  z-index: 20;
 }
 .HeroSectionMainComponants .HeroSectionSocialIcon {
   position: fixed;

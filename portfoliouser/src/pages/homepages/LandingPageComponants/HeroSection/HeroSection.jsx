@@ -51,7 +51,7 @@ const HeroSection = () => {
           <img src={profile} className="img-fluid img-var" alt="" />
         </div>
         <div className="webVector">
-          <img src={wave} alt="" />
+          <img src={wave} alt="" className="z-[10000]"/>
         </div>
       </section>
       <div className="HeroSectionSocialIcon">
