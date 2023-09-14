@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css";
+import logo from "./VaridhLogo.png";
 import { Link } from 'react-router-dom';
 
 
@@ -23,7 +24,9 @@ var  openNav = ()=>{
         <>
     <nav className="navbar navbar-expand-sm navbar-light" onScroll={openNav}>
         <div className="container" data-aos="fade-down">
-            <Link className="navbar-brand" to="/"> Varidh</Link>
+            <Link className="navbar-brand" to="/"> 
+            <img src={logo} alt="" />
+            </Link>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">

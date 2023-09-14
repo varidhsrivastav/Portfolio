@@ -1,136 +1,46 @@
 import React from "react";
 import "./FeaturedProject.css";
 import logo1 from "./image/logodf.png";
-import CleanCloset from "./image/cc1.png";
-import GetKamra from "./image/Screenshot (87).png";
-import netflix from "./image/Screenshot (155).png";
+import Projects  from "./projectdata";
 const Project = () => {
-  const Projects = [
-    {
-      id: "1",
-      projectType: "Web Project",
-      ProjectImg: "./image/monitor (1).png",
-      ProjectName: "Get Kamra",
-      projectDesc:
-        "lorem ipsum lorem ispudkjkdj ksjdhvb kjsvfdbs kjsdhvfk sldj",
-      showProjectbtn: "Show More",
-    },
-    {
-      id: "2",
-      projectType: "Web Project",
-      ProjectImg: "./image/monitor (1).png",
-      ProjectName: "Get Kamra",
-      projectDesc:
-        "lorem ipsum lorem ispudkjkdj ksjdhvb kjsvfdbs kjsdhvfk sldj",
-      showProjectbtn: "Show More",
-    },
-    {
-      id: "3",
-      projectType: "Web Project",
-      ProjectImg: "./image/monitor (1).png",
-      ProjectName: "Get Kamra",
-      projectDesc:
-        "lorem ipsum lorem ispudkjkdj ksjdhvb kjsvfdbs kjsdhvfk sldj",
-      showProjectbtn: "Show More",
-    },
-  ];
   return (
-    <div className="ProjectMainContainer">
-      <div className="ProjectContainer container">
+    <div className="ProjectMainContainer container">
+      <div className="ProjectContainer ">
         <div className="maintile">
-          <h1>Featured Projects</h1>
+          <h1>Projects</h1>
         </div>
-        <div className="FeaturedProjectBody" id="FeatProj1">
-          <div className="FeaturedProjectCount">
-            <div className="fprojectid">
-              <p>01</p>
-            </div>
-            <div className="FeaturedProjectLine">
-              <div className="fpline"></div>
-            </div>
-            <a href="/">
-              <div className="FPicon">
-                <i class="fa-solid fa-arrow-right"></i>
+          {Projects.map((index, dataa) => {
+            return (
+              <div className="FeaturedProjectBody" id={index.idselector}>
+              <div key={dataa}>
+                <div className="FeaturedProjectCount">
+                  <div className="fprojectid">
+                    <p>{index.id}</p>
+                  </div>
+                  <div className="FeaturedProjectLine">
+                    <div className="fpline"></div>
+                  </div>
+                  <a href="/">
+                    <div className="FPicon">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+                <div className="FeaturedProjectContent">
+                  <div className="FeatureProjTitle">
+                    <img src={index.ProjectImg} alt="" />
+                  </div>
+                  <div className="FeatProjectTitleLogo">
+                    <img src={logo1} alt="" />
+                  </div>
+                  <div className="FeaturedProjectDesc">
+                    <p>{index.projectDesc}</p>
+                  </div>
+                </div>
               </div>
-            </a>
-          </div>
-          <div className="FeaturedProjectContent">
-            <div className="FeatureProjTitle">
-              <img src={CleanCloset} alt="" />
-            </div>
-            <div className="FeatProjectTitleLogo">
-              <img src={logo1} alt="" />
-            </div>
-            {/* <div className="FeatureProjTitle">
-                <img src={CleanCloset} alt="" />
-            </div> */}
-            <div className="FeaturedProjectDesc">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Itaque, aspernatur.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="FeaturedProjectBody" id="FeatProj2">
-          <div className="FeaturedProjectCount">
-            <div className="fprojectid">
-              <p>02</p>
-            </div>
-            <div className="FeaturedProjectLine">
-              <div className="fpline"></div>
-            </div>
-            <a href="/">
-              <div className="FPicon">
-                <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </a>
-          </div>
-          <div className="FeaturedProjectContent">
-            <div className="FeatProjectTitleLogo">
-              <h1>GetKamra</h1>
-            </div>
-            <div className="FeatureProjTitle">
-              <img src={GetKamra} alt="" />
-            </div>
-            <div className="FeaturedProjectDesc">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Nemo totam
-                nisi minima esse eius sequi cupiditate officia fuga vero
-                reprehenderit.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="FeaturedProjectBody" id="FeatProj3">
-          <div className="FeaturedProjectCount">
-            <div className="fprojectid">
-              <p>03</p>
-            </div>
-            <div className="FeaturedProjectLine">
-              <div className="fpline"></div>
-            </div>
-            <a href="/">
-              <div className="FPicon">
-                <i class="fa-solid fa-arrow-right"></i>
-              </div>
-            </a>
-          </div>
-          <div className="FeaturedProjectContent">
-            <div className="FeatureProjTitle">
-              <img src={netflix} alt="" />
-            </div>
-            <div className="FeatProjectTitleLogo">
-              <h1>Netflix Clone</h1>
-            </div>
-            <div className="FeaturedProjectDesc">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adsit amet consectetur
-                adipisicing elit. Nemo totam nisi minima esse eius rit.
-              </p>
-            </div>
-          </div>
+            );
+          })}
         </div>
         <div className="ProjectFetbtn">
           <div class="sp">
@@ -454,7 +364,6 @@ const Project = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -1,16 +1,13 @@
 .ProjectMainContainer {
-    padding: 100px;
-
+    max-width: 100vh;
     .ProjectContainer {
         .maintile {
             padding: 0 0 50px 0;
             text-align: center;
-
             h1 {
                 font-size: 64px;
             }
         }
-
         #FeatProj1 {
             .fprojectid {
                 p {
@@ -206,109 +203,109 @@
             }
         }
 
-        .ProjectFetbtn {
-            margin: 50px 0 ;
-            display: flex;
-            justify-content: center;
-        }
-
+        
+    }
+    .ProjectFetbtn {
+        margin: 50px 0 ;
+        display: flex;
+        justify-content: center;
     }
 }
 
-@media (max-width:900px) {
-    .ProjectMainContainer {
-        padding: 50px 0;
+// @media (max-width:900px) {
+//     .ProjectMainContainer {
+//         padding: 50px 0;
 
-        .ProjectContainer {
-            .maintile {
-                padding: 0 0 10px 0;
-                text-align: center;
+//         .ProjectContainer {
+//             .maintile {
+//                 padding: 0 0 10px 0;
+//                 text-align: center;
 
-                h1 {
-                    font-size: 40px;
-                }
-            }
+//                 h1 {
+//                     font-size: 40px;
+//                 }
+//             }
 
-            .FeaturedProjectBody {
-                padding: 10px 0;
-                width: 100%;
+//             .FeaturedProjectBody {
+//                 padding: 10px 0;
+//                 width: 100%;
 
-                .FeaturedProjectCount {
-                    display: flex;
-                    align-items: center;
+//                 .FeaturedProjectCount {
+//                     display: flex;
+//                     align-items: center;
 
-                    .fprojectid {
-                        width: 20%;
+//                     .fprojectid {
+//                         width: 20%;
 
-                        p {
-                            font-size: 48px;
-                        }
-                    }
+//                         p {
+//                             font-size: 48px;
+//                         }
+//                     }
 
-                    .FeaturedProjectLine {
-                        width: 80%;
-                        display: flex;
-                        align-items: center;
+//                     .FeaturedProjectLine {
+//                         width: 80%;
+//                         display: flex;
+//                         align-items: center;
 
-                        .fpline {
-                            text-align: center;
-                            width: 95%;
-                            margin: 10px 0 0 0;
-                            border: 1px solid white;
-                        }
-                    }
+//                         .fpline {
+//                             text-align: center;
+//                             width: 95%;
+//                             margin: 10px 0 0 0;
+//                             border: 1px solid white;
+//                         }
+//                     }
 
-                    a {
-                        .FPicon {
-                            width: 10%;
+//                     a {
+//                         .FPicon {
+//                             width: 10%;
 
-                            i {
-                                color: #2ECDA3;
-                                border: 5px solid white;
-                                padding: 20px;
-                                border-radius: 50%;
-                                font-size: 40px;
-                            }
-                        }
-                    }
-                }
+//                             i {
+//                                 color: #2ECDA3;
+//                                 border: 5px solid white;
+//                                 padding: 20px;
+//                                 border-radius: 50%;
+//                                 font-size: 40px;
+//                             }
+//                         }
+//                     }
+//                 }
 
-                .FeaturedProjectContent {
-                    padding: 20px;
-                    width: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 1.5em;
-                    align-items: center;
+//                 .FeaturedProjectContent {
+//                     padding: 20px;
+//                     width: 100%;
+//                     display: flex;
+//                     flex-direction: column;
+//                     gap: 1.5em;
+//                     align-items: center;
 
-                    .FeatProjectTitleLogo {
-                        width: 100%;
+//                     .FeatProjectTitleLogo {
+//                         width: 100%;
 
-                        img {
-                            width: 200px;
-                        }
-                    }
+//                         img {
+//                             width: 200px;
+//                         }
+//                     }
 
-                    .FeaturedProjectDesc {
-                        width: 100%;
+//                     .FeaturedProjectDesc {
+//                         width: 100%;
 
-                        p {
-                            margin: 0;
-                            padding: 0;
-                            font-size: 20px;
-                            font-weight: 500;
-                            width: 100%;
-                            text-align: left;
-                        }
+//                         p {
+//                             margin: 0;
+//                             padding: 0;
+//                             font-size: 20px;
+//                             font-weight: 500;
+//                             width: 100%;
+//                             text-align: left;
+//                         }
 
-                        display: flex;
-                        justify-content: end;
-                    }
-                }
-            }
-        }
-    }
-}
+//                         display: flex;
+//                         justify-content: end;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
 

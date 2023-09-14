@@ -1,5 +1,5 @@
 .ProjectMainContainer {
-  padding: 100px;
+  max-width: 100vh;
 }
 .ProjectMainContainer .ProjectContainer .maintile {
   padding: 0 0 50px 0;
@@ -134,86 +134,12 @@
   text-align: right;
   color: rgba(238, 238, 238, 0.6980392157);
 }
-.ProjectMainContainer .ProjectContainer .ProjectFetbtn {
+.ProjectMainContainer .ProjectFetbtn {
   margin: 50px 0;
   display: flex;
   justify-content: center;
 }
 
-@media (max-width: 900px) {
-  .ProjectMainContainer {
-    padding: 50px 0;
-  }
-  .ProjectMainContainer .ProjectContainer .maintile {
-    padding: 0 0 10px 0;
-    text-align: center;
-  }
-  .ProjectMainContainer .ProjectContainer .maintile h1 {
-    font-size: 40px;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody {
-    padding: 10px 0;
-    width: 100%;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount {
-    display: flex;
-    align-items: center;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount .fprojectid {
-    width: 20%;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount .fprojectid p {
-    font-size: 48px;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount .FeaturedProjectLine {
-    width: 80%;
-    display: flex;
-    align-items: center;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount .FeaturedProjectLine .fpline {
-    text-align: center;
-    width: 95%;
-    margin: 10px 0 0 0;
-    border: 1px solid white;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount a .FPicon {
-    width: 10%;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectCount a .FPicon i {
-    color: #2ECDA3;
-    border: 5px solid white;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 40px;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectContent {
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-    align-items: center;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectContent .FeatProjectTitleLogo {
-    width: 100%;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectContent .FeatProjectTitleLogo img {
-    width: 200px;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectContent .FeaturedProjectDesc {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-  }
-  .ProjectMainContainer .ProjectContainer .FeaturedProjectBody .FeaturedProjectContent .FeaturedProjectDesc p {
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    font-weight: 500;
-    width: 100%;
-    text-align: left;
-  }
-}
 .sparkle-button {
   --active: 0;
   --bg: radial-gradient(40% 50% at center 100%,

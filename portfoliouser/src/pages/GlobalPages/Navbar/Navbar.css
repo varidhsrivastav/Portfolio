@@ -26,9 +26,10 @@
 }
 
 .navbar-brand {
-  font-weight: bold;
-  color: #ffc200 !important;
-  font-size: 28px;
+  padding-top: 20px;
+}
+.navbar-brand img {
+  width: 200px;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -57,14 +58,14 @@
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #236F5B;
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:focus span,
 .navbar-light .navbar-nav .nav-link:hover span {
   transform: translateY(-100%);
-  color: #ffc200;
+  color: #236F5B;
 }
 
 .navbar-light .navbar-toggler-icon {

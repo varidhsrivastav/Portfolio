@@ -7,19 +7,23 @@ import MyExperties from './LandingPageComponants/MyExperties/MyExperties';
 import TimelineSection from './LandingPageComponants/TimelineSection/TimelineSection';
 import "./LnadingPage.css";
 import Testimonials from './LandingPageComponants/TestimonialsSec/Testimonials';
-import Project from './LandingPageComponants/Projects/Project';
 import Tech from './LandingPageComponants/TechUsed/TechUsed';
 import WhyMe from './LandingPageComponants/WhyMe/WhyMe';
+import AllProjects from '../AllProjects/AllProjects';
+import Product from '../../componants/Product';
+// import Projects from './LandingPageComponants/Projects/projectdata';
 
 const Landingpage = () => {
   return (
     <div className='MainLandingPageComponants'>
       <HeroSection/>
       <Tech/>
+      <AllProjects/>
+      <Product/>
+      {/* <Projects/> */}
       <WhyMe/>
       <MyExperties/>
       <AboutSection/>
-      <Project/>
       <LetsTalk/>
       <TimelineSection/>
       <CertificateSec/>
