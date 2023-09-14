@@ -31,8 +31,6 @@ const CertificateSec = () => {
                             loop={Infinity}
                             pagination={{ el: '.swiper-pagination', clickable: true }}
                             scrollbar={{ draggable: true }}
-                             onSwiper={(swiper) => console.log(swiper)}
-                            onSlideChange={() => console.log('slide change')}
                             >
                             <SwiperSlide><img src={c1} alt="" /></SwiperSlide>
                             <SwiperSlide><img src={c2} alt="" /></SwiperSlide>

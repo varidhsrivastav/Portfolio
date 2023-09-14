@@ -1,0 +1,60 @@
+.MyProjectMCont {
+  padding-top: 100px;
+}
+.MyProjectMCont .MyProjCont {
+  color: white;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "a b b c" "d e e c" "f f g g";
+}
+.MyProjectMCont .MyProjCont .project1 h3,
+.MyProjectMCont .MyProjCont .project2 h3,
+.MyProjectMCont .MyProjCont .project3 h3,
+.MyProjectMCont .MyProjCont .project4 h3,
+.MyProjectMCont .MyProjCont .project5 h3,
+.MyProjectMCont .MyProjCont .project6 h3,
+.MyProjectMCont .MyProjCont .project7 h3 {
+  color: #2ECDA3;
+}
+.MyProjectMCont .MyProjCont .project1 img,
+.MyProjectMCont .MyProjCont .project2 img,
+.MyProjectMCont .MyProjCont .project3 img,
+.MyProjectMCont .MyProjCont .project4 img,
+.MyProjectMCont .MyProjCont .project5 img,
+.MyProjectMCont .MyProjCont .project6 img,
+.MyProjectMCont .MyProjCont .project7 img {
+  border-radius: 10px;
+  width: 100%;
+}
+.MyProjectMCont .MyProjCont .project1 {
+  grid-area: a;
+  place-self: center;
+}
+.MyProjectMCont .MyProjCont .project1 h3 {
+  color: white;
+  font-size: 5rem;
+}
+.MyProjectMCont .MyProjCont .project2 {
+  grid-area: b;
+}
+.MyProjectMCont .MyProjCont .project3 {
+  grid-area: c;
+}
+.MyProjectMCont .MyProjCont .project4 {
+  grid-area: d;
+}
+.MyProjectMCont .MyProjCont .project5 {
+  grid-area: e;
+}
+.MyProjectMCont .MyProjCont .project6 {
+  grid-area: f;
+}
+.MyProjectMCont .MyProjCont .project7 {
+  grid-area: g;
+}
+
+@media (max-width: 800px) {
+  .MyProjectMCont .MyProjCont {
+    grid-template-areas: "a a a a " "b b b b" "c c c c" "d d d d" "e e e e" "f f f f" "g g g g" !important;
+  }
+}/*# sourceMappingURL=MyProjects.css.map */

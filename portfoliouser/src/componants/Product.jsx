@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import DATA from '../DATA'
 
 const Product = () => {
-
     const cardItem = (item) => {
         return (
             <div class="card my-5 py-4" key={item.id} style={{width: "18rem"}}>

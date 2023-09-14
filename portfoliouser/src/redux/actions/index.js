@@ -11,3 +11,16 @@ export const delItem = (product) => {
         payload : product
     }
 }
+
+export const addProject = (project)=>{
+    return{
+        type:"ADDPROJECT",
+        payload:project
+    }
+}
+export const delProject = (project) => {
+    return {
+        type : "DELPROJECT",
+        payload : project
+    }
+}

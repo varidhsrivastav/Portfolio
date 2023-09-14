@@ -10,7 +10,7 @@ import Testimonials from './LandingPageComponants/TestimonialsSec/Testimonials';
 import Tech from './LandingPageComponants/TechUsed/TechUsed';
 import WhyMe from './LandingPageComponants/WhyMe/WhyMe';
 import AllProjects from '../AllProjects/AllProjects';
-import Product from '../../componants/Product';
+import MyProjects from '../../componants/MyProjects/MyProjects';
 // import Projects from './LandingPageComponants/Projects/projectdata';
 
 const Landingpage = () => {
@@ -19,11 +19,10 @@ const Landingpage = () => {
       <HeroSection/>
       <Tech/>
       <AllProjects/>
-      <Product/>
-      {/* <Projects/> */}
       <WhyMe/>
       <MyExperties/>
       <AboutSection/>
+      <MyProjects/>
       <LetsTalk/>
       <TimelineSection/>
       <CertificateSec/>

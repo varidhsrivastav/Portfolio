@@ -1,0 +1,85 @@
+.MyProjectMCont {
+    padding-top: 100px;
+
+    .MyProjCont {
+        color: white;
+        display: grid;
+        gap: 20px;
+        grid-template-areas:
+            'a b b c'
+            'd e e c'
+            'f f g g';
+        .project1,
+        .project2,
+        .project3,
+        .project4,
+        .project5,
+        .project6,
+        .project7 {
+            h3{
+                color: #2ECDA3;
+            }
+            img {
+                border-radius: 10px;
+                width: 100%;
+                // transform: c;
+            }
+        }
+
+        .project1 {
+            h3 {
+                color: white;
+                font-size: 5rem;
+            }
+
+            grid-area: a;
+            place-self: center;
+        }
+
+        .project2 {
+            grid-area: b;
+
+        }
+
+        .project3 {
+            grid-area: c;
+
+        }
+
+        .project4 {
+            grid-area: d;
+
+        }
+
+        .project5 {
+            grid-area: e;
+
+        }
+
+        .project6 {
+            grid-area: f;
+
+        }
+
+        .project7 {
+            grid-area: g;
+
+        }
+
+    }
+}
+
+@media (max-width: 800px) {
+    .MyProjectMCont {
+        .MyProjCont {
+            grid-template-areas:
+                'a a a a '
+                'b b b b'
+                'c c c c'
+                'd d d d'
+                'e e e e'
+                'f f f f'
+                'g g g g' !important;
+        }
+    }
+}
