@@ -4,8 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const MyProjects = () => {
   const projectItem = (project) => {
-    return (
-      <div key={project.id} className={`${project.projectclass}`}>
+    <div key={project.id} className={`${project.projectclass}`}>
         <img src={project.imgSrc} alt="" />
         <h3>{project.title}</h3>
         <p>{project.description}</p>
@@ -13,7 +12,7 @@ const MyProjects = () => {
           See project
         </NavLink>
       </div>
-    );
+     
   };
   return (
     <div className="MyProjectMCont">

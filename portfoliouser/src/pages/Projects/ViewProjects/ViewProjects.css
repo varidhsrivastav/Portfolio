@@ -1,3 +1,6 @@
+.ViewProjectMainComponants {
+  padding-top: 100px;
+}
 .ViewProjectMainComponants .ViewProjectCompImage {
   display: flex;
   justify-content: center;
