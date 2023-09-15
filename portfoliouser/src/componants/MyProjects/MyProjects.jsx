@@ -4,14 +4,16 @@ import { NavLink } from "react-router-dom";
 
 const MyProjects = () => {
   const projectItem = (project) => {
+    return(
     <div key={project.id} className={`${project.projectclass}`}>
         <img src={project.imgSrc} alt="" />
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <NavLink to={`/myprojects/${project.id}`} class="btn btn-outline-primary">
-          See project
+          See projects
         </NavLink>
       </div>
+    )
      
   };
   return (
@@ -25,5 +27,4 @@ const MyProjects = () => {
     </div>
   );
 };
-
 export default MyProjects;

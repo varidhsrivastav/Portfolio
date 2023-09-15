@@ -9,16 +9,14 @@ import "./LnadingPage.css";
 import Testimonials from './LandingPageComponants/TestimonialsSec/Testimonials';
 import Tech from './LandingPageComponants/TechUsed/TechUsed';
 import WhyMe from './LandingPageComponants/WhyMe/WhyMe';
-import AllProjects from '../AllProjects/AllProjects';
 import MyProjects from '../../componants/MyProjects/MyProjects';
-// import Projects from './LandingPageComponants/Projects/projectdata';
 
 const Landingpage = () => {
   return (
     <div className='MainLandingPageComponants'>
       <HeroSection/>
       <Tech/>
-      <AllProjects/>
+      <MyProjects/>
       <WhyMe/>
       <MyExperties/>
       <AboutSection/>
