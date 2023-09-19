@@ -1,3 +1,4 @@
+// CleanCloset
 import cleanCloset from "./image/Screenshot 2023-09-03 204453.png";
 import portmobi from "./image/portFolioMobile.png";
 import titlePhot from "./image/CleanCloset/image/cc1.png";
@@ -7,14 +8,22 @@ import cc4 from "./image/CleanCloset/image/cc4.png";
 import cc5 from "./image/CleanCloset/image/cc5.png";
 import cc6 from "./image/CleanCloset/image/cc6.png";
 import logo from "./image/CleanCloset/image/logodf.png";
-const ProjectData = [{
-    id: "00",
+import cleanclosetLogo from "./image/CleanCloset/image/logodf copy.png";
+// Thakurji
+import thakurji from './image/thakurji.png';
+const ProjectData = [
+  // a
+  {
+    id: "0",
     title: "My Projects",
     projectclass: "project1",
+    featured:"true"
   },
+  // b
   {
     id: "01",
-    title: "CleanCloset",
+    logoimag: cleanclosetLogo,
+    projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
     imgSrc: cleanCloset,
     img: {
@@ -39,12 +48,15 @@ const ProjectData = [{
       projectLink:"https://clean-closet-v2.vercel.app/",
     },
     projectclass: "project2",
+    featured:"true"
   },
+  // c
   {
     id: "02",
-    title: "CleanCloset",
+    logoimag: cleanclosetLogo,
+    projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
-    imgSrc: portmobi,
+    imgSrc: thakurji,
     img: {
       titlephoto: titlePhot,
       projectlogo: logo,
@@ -66,10 +78,13 @@ const ProjectData = [{
       projectLink:"link of project",
     },
     projectclass: "project3",
+    featured:"false"
   },
+  // d
   {
     id: "03",
-    title: "CleanCloset",
+    logoimag: cleanclosetLogo,
+    projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
     imgSrc: cleanCloset,
     img: {
@@ -93,10 +108,13 @@ const ProjectData = [{
       projectLink:"link of project",
     },
     projectclass: "project4",
+    featured:"true"
   },
+  // e
   {
     id: "04",
-    title: "CleanCloset",
+    logoimag: cleanclosetLogo,
+    projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
     imgSrc: cleanCloset,
     img: {
@@ -120,10 +138,13 @@ const ProjectData = [{
       projectLink:"link of project",
     },
     projectclass: "project5",
+    featured:"true"
   },
+  // f
   {
     id: "05",
-    title: "CleanCloset",
+    logoimag: cleanclosetLogo,
+    projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
     imgSrc: cleanCloset,
     img: {
@@ -147,10 +168,13 @@ const ProjectData = [{
       projectLink:"link of project",
     },
     projectclass: "project6",
+    featured:"false"
   },
+  // g
   {
     id: "06",
-    title: "CleanCloset",
+    logoimag: cleanclosetLogo,
+    projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
     imgSrc: cleanCloset,
     img: {
@@ -174,6 +198,7 @@ const ProjectData = [{
       projectLink:"link of project",
     },
     projectclass: "project7",
+    featured:"false"
   },
 ];
 

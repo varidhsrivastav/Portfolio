@@ -9,6 +9,7 @@ import AboutMe from "./pages/AboutMe/AboutMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyProjects from "./componants/MyProjects/MyProjects";
 import ProjectDetails from "./componants/MyProjects/ProjectDetails";
+import ProjectsPage from "./componants/ProjectPage/ProjectPage";
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,9 @@ function App() {
           <Route path="/" element={<Landingpage />} exact={true} />
           <Route path="/about" element={ <AboutMe/> } exact={true} />
           <Route path="/contact" element={ <ContactUs/> } exact={true} />
-          <Route path="/myprojects"  element={  <MyProjects/> } exact={true} />
-          <Route path="/myprojects/:id" element={<ProjectDetails/>}/>
+          <Route path="/myproject"  element={  <ProjectsPage/> } exact={true} />
+          <Route path="/myproject/:id" element={<ProjectDetails/>}/>
+          
         
         </Routes>
       <Footer />

@@ -1,85 +1,182 @@
 .MyProjectMCont {
-    padding-top: 100px;
+  padding: 100px 0;
+  background: #0A0A0A;
+  .MyProjCont {
+    color: white;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
-    .MyProjCont {
-        color: white;
-        display: grid;
-        gap: 20px;
-        grid-template-areas:
-            'a b b c'
-            'd e e c'
-            'f f g g';
-        .project1,
-        .project2,
-        .project3,
-        .project4,
-        .project5,
-        .project6,
-        .project7 {
-            h3{
-                color: #2ECDA3;
-            }
-            img {
-                border-radius: 10px;
-                width: 100%;
-                // transform: c;
-            }
-        }
+    // grid-template-areas:
+    //     'a a a b b b'
+    //     'd d d e e e'
+    //     'f f f g g g';
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6,
+    .project7 {
 
-        .project1 {
-            h3 {
-                color: white;
-                font-size: 5rem;
-            }
-
-            grid-area: a;
-            place-self: center;
-        }
-
-        .project2 {
-            grid-area: b;
-
-        }
-
-        .project3 {
-            grid-area: c;
-
-        }
-
-        .project4 {
-            grid-area: d;
-
-        }
-
-        .project5 {
-            grid-area: e;
-
-        }
-
-        .project6 {
-            grid-area: f;
-
-        }
-
-        .project7 {
-            grid-area: g;
-
-        }
-
+      img {
+        border-radius: 10px;
+        width: 100%;
+        // transform: c;
+      }
     }
+
+    .projectLogo {
+      padding: 10px 0;
+
+      img {
+        width: 150px;
+      }
+    }
+
+    .project1 {
+      place-self: center;
+
+      h3 {
+        color: white;
+        font-size: 6rem;
+      }
+    }
+
+    // .project2 {
+    //     grid-area: b;
+
+    // }
+
+    // .project3 {
+    //     grid-area: c;
+
+    // }
+
+    // .project4 {
+    //     grid-area: d;
+
+    // }
+
+    // .project5 {
+    //     grid-area: e;
+
+    // }
+
+    // .project6 {
+    //     grid-area: f;
+
+    // }
+
+    // .project7 {
+    //     grid-area: g;
+
+    // }
+    .MyProjContCard {
+      display: flex;
+      flex-direction: column;
+      // flex: 1;
+    }
+  }
 }
 
 @media (max-width: 800px) {
-    .MyProjectMCont {
-        .MyProjCont {
-            grid-template-areas:
-                'a a a a '
-                'b b b b'
-                'c c c c'
-                'd d d d'
-                'e e e e'
-                'f f f f'
-                'g g g g' !important;
-        }
+  .MyProjectMCont {
+    .MyProjCont {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
+  }
+}
+
+
+
+.cta {
+  display: flex;
+  padding: 5px 23px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: white;
+  background: #6225E6;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  border: none;
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #FBC638;
+}
+
+.cta .second {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover .second {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.span {
+  transform: skewX(15deg)
+}
+
+.second {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover .three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover .one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover .two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: #FBC638;
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+.AllProjButton {
+  padding: 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

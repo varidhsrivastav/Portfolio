@@ -20,7 +20,6 @@ const Landingpage = () => {
       <WhyMe/>
       <MyExperties/>
       <AboutSection/>
-      <MyProjects/>
       <LetsTalk/>
       <TimelineSection/>
       <CertificateSec/>
