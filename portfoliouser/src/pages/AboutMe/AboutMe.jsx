@@ -15,7 +15,7 @@ const AboutMe = () => {
             <h1>Create.</h1>
           </div>
           <div className="Iterate">
-            <h1>Iterate</h1>
+            <h1>Iterate.</h1>
           </div>
           {/* <h1>Think.Create.Iterate</h1> */}
         </div>
@@ -25,10 +25,10 @@ const AboutMe = () => {
             visual for durable companies around the globe
           </div> */}
           <div className="TechAboutUs">
-            <Tech />
+            {/* <Tech /> */}
           </div>
-          <LetsTalk />
-          <h1 className="think">Think. Create. Iterate.</h1>
+          {/* <LetsTalk /> */}
+          {/* <h1 className="think">Think. Create. Iterate.</h1>
           <div className="row bio-text ">
             <div className="col-lg-2">
               <h3>bio.</h3>
@@ -54,7 +54,7 @@ const AboutMe = () => {
                 programming languages like c and c++.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

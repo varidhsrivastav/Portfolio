@@ -10,18 +10,20 @@ import Testimonials from './LandingPageComponants/TestimonialsSec/Testimonials';
 import Tech from './LandingPageComponants/TechUsed/TechUsed';
 import WhyMe from './LandingPageComponants/WhyMe/WhyMe';
 import MyProjects from '../../componants/MyProjects/MyProjects';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Landingpage = () => {
   return (
     <div className='MainLandingPageComponants'>
       <HeroSection/>
+      <AboutMe/>
       <Tech/>
       <MyExperties/>
       <AboutSection/>
       <WhyMe/>
       <MyProjects/>
       <TimelineSection/>
-      <CertificateSec/>
+      {/* <CertificateSec/> */}
       <Testimonials/>
     </div>
   )

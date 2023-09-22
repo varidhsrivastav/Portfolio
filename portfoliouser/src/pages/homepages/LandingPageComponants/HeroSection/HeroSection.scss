@@ -2,17 +2,15 @@
 
 .HeroSectionMainComponants {
     .HeroSectionComponants {
-        min-height: 100vh;
-        // max-width: 50%;
+        min-height: 70vh;
         color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-
         .HeroSectionContent {
-            width: 65%;
+            flex: 65%;
             small {
                 color: #5b5b5b;
                 font-size: 14px;
@@ -20,12 +18,10 @@
                 border-radius: 50px;
                 letter-spacing: 0.2px;
             }
-
             .HeroIntroText {
                 font-size: 48px;
                 font-weight: 900;
             }
-
             p {
                 margin: 2.5em 0 0 0;
                 font-size: 18px;
@@ -34,7 +30,6 @@
                 color: #FFF;
             }
         }
-
         .HeroSecImage {
             width: 35%;
 

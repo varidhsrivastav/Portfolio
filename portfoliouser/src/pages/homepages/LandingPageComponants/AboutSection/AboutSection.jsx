@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./AboutSec.css";
 import Me from "./image/me.jpg"
 import pic from "../HeroSection/Image/profile pic.jpg";
+import LetsTalk from '../../../GlobalPages/LetsTalk/LetsTalk';
 const superpower = `Creative web developer based in Bengaluru, India`;
 const AboutSection = () => {
     const [typedSuperPower, setTypedSuperPower] = useState('');
@@ -28,6 +29,7 @@ const AboutSection = () => {
                         </div>
                     </div>
                 </div>
+                <LetsTalk/>
             </section>
             
     </div>
