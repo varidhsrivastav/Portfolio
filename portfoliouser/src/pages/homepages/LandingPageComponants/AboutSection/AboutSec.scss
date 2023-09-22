@@ -2,12 +2,16 @@
     display: flex;
     margin: 120px 0 100px 0;
     .aboutimg {
+      flex: 1;
+      width: 100%;
+      overflow: hidden;
         img{
-            width: 100%;
+            width: 150%;
             border-radius: 10px;
           }
     }
     .about-homecontent{
+      flex: 1;
       padding: 0 0 0 50px;
       align-self: center;
       h3{

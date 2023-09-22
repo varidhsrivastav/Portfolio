@@ -2,11 +2,17 @@
   display: flex;
   margin: 120px 0 100px 0;
 }
-.aboutHome .aboutimg img {
+.aboutHome .aboutimg {
+  flex: 1;
   width: 100%;
+  overflow: hidden;
+}
+.aboutHome .aboutimg img {
+  width: 150%;
   border-radius: 10px;
 }
 .aboutHome .about-homecontent {
+  flex: 1;
   padding: 0 0 0 50px;
   align-self: center;
 }

@@ -1,9 +1,119 @@
 import React from "react";
 import "./TimelineSection.css";
-
+import wawepback from "./wavy-black-white-background (1).jpg";
+const experiencedata = [
+  {
+    id: 0,
+    year: "2023",
+    jobTitle: "Tech Lead",
+    companyname: "Sarvamatre pvt ltd",
+    desce:
+      "Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.",
+    skills: {
+      skill1: "React",
+      skill2: "nextjs",
+      skill3: "javascript",
+      skill4: "node",
+    },
+  },
+  {
+    id: 1,
+    year: "2022",
+    jobTitle: "Frontend developer (Intern)",
+    companyname: "Rablo.in",
+    desce:
+      "Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.",
+    skills: {
+      skill1: "React",
+      skill2: "nextjs",
+      skill3: "javascript",
+      skill4: "node",
+    },
+  },
+  {
+    id: 2,
+    year: "2022",
+    jobTitle: "Web Developer (Intern)",
+    companyname: "Drona Automation",
+    desce:
+      "Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.",
+    skills: {
+      skill1: "React",
+      skill2: "nextjs",
+      skill3: "javascript",
+      skill4: "node",
+    },
+  },
+  {
+    id: 3,
+    year: "2021",
+    jobTitle: "Front-end Developer (Intern)",
+    companyname: "Raise Digital",
+    desce:
+      "Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.",
+    skills: {
+      skill1: "React",
+      skill2: "nextjs",
+      skill3: "javascript",
+      skill4: "node",
+    },
+  },
+  {
+    id: 4,
+    year: "2021",
+    jobTitle: "Home Tutor",
+    companyname: "Self",
+    desce:
+      "Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.",
+    skills: {
+      skill1: "React",
+      skill2: "nextjs",
+      skill3: "javascript",
+      skill4: "node",
+    },
+  },
+];
+const educationaldata = [
+  {
+    id: 1,
+    year: "2023-2025",
+    degree: "Masters Of Computer Apllications",
+    institute: "PES University",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque fugit mollitia iste distinctio reiciendis suscipit provident libero temporibus unde, magni eos quibusdam sed perferendis quia earum ipsum recusandae? Nobis, praesentium?.",
+  },
+  {
+    id: 2,
+    year: "2021-2023",
+    degree: "Bachelor of Computer Applications",
+    institute: "Acharya Institute Of Gradute Studies",
+    desc: "",
+  },
+  {
+    id: 3,
+    year: "2021",
+    degree: "Web Development Bootcamp",
+    institute: "Udemy",
+    desc: "tia iste distinctio reiciendis suscipit provident libero temporibus unde, magni eos quibusdam sed perferendis quia earum ipsum recusandae? Nobis, praesentium?.",
+  },
+  {
+    id: 4,
+    year: "2022",
+    degree: "React",
+    institute: "Udemy",
+    desc: "tia iste distinctio reiciendis suscipit provident libero temporibus unde, magni eos quibusdam sed perferendis quia earum ipsum recusandae? Nobis, praesentium?.",
+  },
+  {
+    id: 4,
+    year: "2022",
+    degree: "Javascript",
+    institute: "Udemy",
+    desc: "tia iste distinctio reiciendis suscipit provident libero temporibus unde, magni eos quibusdam sed perferendis quia earum ipsum recusandae? Nobis, praesentium?.",
+  },
+];
 const TimelineSection = () => {
   return (
-    <div>
+    <div className="timelineSecMain">
+      <img src={wawepback} alt="" />
       <section
         className="resume  d-lg-flex justify-content-center align-items-center"
         id="resume"
@@ -12,200 +122,57 @@ const TimelineSection = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <h2 className="mb-4">Experiences</h2>
-
               <div className="timeline">
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2022-</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>Web Developer </span>
-                      <small>Drona Automation</small>
-                    </h3>
-                    <p>
-                      Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam
-                      laoreet libero ac pharetra feugiat. Cras ac fermentum
-                      nunc, a faucibus nunc.
-                    </p>
-                    <div className="skilltime">
-
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
+                {experiencedata.map((data, index) => {
+                  return (
+                    <div className="timeline-wrapper" key={index}>
+                      <div className="timeline-yr">
+                        <span>{data.year}</span>
+                      </div>
+                      <div className="timeline-info">
+                        <h3>
+                          <span>{data.jobTitle} </span>
+                          <small>{data.companyname}</small>
+                        </h3>
+                        <p>{data.desce}</p>
+                        <div className="skilltime">
+                          <button class="button-18">
+                            {data.skills.skill1}
+                          </button>
+                          <button class="button-18">
+                            {data.skills.skill2}
+                          </button>
+                          <button class="button-18">
+                            {data.skills.skill3}
+                          </button>
+                        </div>
+                      </div>
                     </div>
-                    
-                  </div>
-                </div>
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2022</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>Front-end Developer </span>
-                      <small>Raise Digital</small>
-                    </h3>
-                    <p>
-                      Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam
-                      laoreet libero ac pharetra feugiat. Cras ac fermentum
-                      nunc, a faucibus nunc.
-                    </p>
-                    <div className="skilltime">
-
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    </div>
-                  </div>
-                </div>
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2021</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>Fundraising Intern</span>
-                      <small>Muskurahat Foundation l</small>
-                    </h3>
-                    <p>
-                      Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam
-                      laoreet libero ac pharetra feugiat. Cras ac fermentum
-                      nunc, a faucibus nunc.
-                    </p>
-                    <div className="skilltime">
-
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2018-19</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>Tutor</span>
-                      <small>Home coachings</small>
-                    </h3>
-                    <p>
-                      Fusce rutrum augue id orci rhoncus molestie. Nunc auctor
-                      dignissim lacus vel iaculis.
-                    </p>
-                    <div className="skilltime">
-
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    <button class="button-18" >
-                      Button 18
-                    </button>
-                    </div>
-                  </div>
-                </div>
+                  );
+                })}
               </div>
             </div>
 
             <div className="col-lg-6 col-12">
-              <h2 className="mb-4 mobile-mt-2">Educations</h2>
+              <h2 className="mb-4 mobile-mt-2">Educations & Crtifications</h2>
 
               <div className="timeline">
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2021-</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>BCA</span>
-                      <small>Acharya institute of graduate studies</small>
-                    </h3>
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Itaque fugit mollitia iste distinctio reiciendis suscipit
-                      provident libero temporibus unde, magni eos quibusdam sed
-                      perferendis quia earum ipsum recusandae? Nobis,
-                      praesentium?.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2021</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>Web development</span>
-                      <small>Udemy</small>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Sed hic illo eveniet fuga repudiandae quos explicabo,
-                      consectetur aut maiores veniam laborum, reprehenderit et?
-                      Illum corporis, at iste ut adipisci eligendi.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2021</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>React</span>
-                      <small>Udemy</small>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Magnam deserunt cupiditate distinctio magni iste quod,
-                      ipsam officia repellendus ducimus quis ad dolores odio
-                      accusantium, consequatur aut, alias vitae hic et!.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2021</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>PHP</span>
-                      <small>Bizotic</small>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Expedita illo deleniti, perspiciatis eligendi accusamus
-                      et, ipsum, sequi doloremque laboriosam eius temporibus
-                      facere quis tenetur autem pariatur natus saepe. Repellat,
-                      libero?
-                    </p>
-                  </div>
-                </div>
+                {educationaldata.map((data) => {
+                  return (
+                    <div className="timeline-wrapper" key={data.id}>
+                      <div className="timeline-yr">
+                        <span>{data.year}</span>
+                      </div>
+                      <div className="timeline-info">
+                        <h3>
+                          <span>{data.degree}</span>
+                          <small>{data.institute}</small>
+                        </h3>
+                        <p>{data.desc}</p>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

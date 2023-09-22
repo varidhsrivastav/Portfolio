@@ -8,6 +8,7 @@ import mail from "./Image/gmail.png";
 import call from "./Image/telephone.png";
 import facebook from "./Image/facebook.png";
 import instagram from "./Image/instagram.png";
+import profilepic from "./Image/profile pic.jpg";
 const HeroSection = () => {
   return (
     <div className="HeroSectionMainComponants containe">
@@ -32,8 +33,8 @@ const HeroSection = () => {
             </p>
             <div className="custom-btn-group mt-4">
               <a
-                href={profile}
-                className="btn mr-lg-2 custom-btn mx-4"
+                href={profilepic}
+                className="btn mr-lg-2 custom-btn "
                 download
               >
                 <i className="uil uil-file-alt"></i> Download Resume

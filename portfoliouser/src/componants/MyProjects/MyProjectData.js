@@ -9,6 +9,11 @@ import cc5 from "./image/CleanCloset/image/cc5.png";
 import cc6 from "./image/CleanCloset/image/cc6.png";
 import logo from "./image/CleanCloset/image/logodf.png";
 import cleanclosetLogo from "./image/CleanCloset/image/logodf copy.png";
+// get kamra
+import getkamra from "./image/getKamra.png";
+// netflix clone
+import ncl1 from './image/netfliclogo.jpg';
+import netflix from "./image/netflix.png";
 // Thakurji
 import thakurji from './image/thakurji.png';
 const ProjectData = [
@@ -86,7 +91,7 @@ const ProjectData = [
     logoimag: cleanclosetLogo,
     projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
-    imgSrc: cleanCloset,
+    imgSrc: getkamra,
     img: {
       titlephoto: titlePhot,
       projectlogo: logo,
@@ -113,13 +118,13 @@ const ProjectData = [
   // e
   {
     id: "04",
-    logoimag: cleanclosetLogo,
+    logoimag: ncl1,
     projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
-    imgSrc: cleanCloset,
+    imgSrc: netflix,
     img: {
       titlephoto: titlePhot,
-      projectlogo: logo,
+      projectlogo: ncl1,
       pic1: cc2,
       pic2: cc3,
       pic3: cc4,
@@ -146,7 +151,7 @@ const ProjectData = [
     logoimag: cleanclosetLogo,
     projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
-    imgSrc: cleanCloset,
+    imgSrc: netflix,
     img: {
       titlephoto: titlePhot,
       projectlogo: logo,
@@ -176,7 +181,7 @@ const ProjectData = [
     logoimag: cleanclosetLogo,
     projTitle: "CleanCloset",
     description: `A web application that helps you to keep your clothes in order and also help you find the best place for them.`,
-    imgSrc: cleanCloset,
+    imgSrc: netflix,
     img: {
       titlephoto: titlePhot,
       projectlogo: logo,
