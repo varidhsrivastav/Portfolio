@@ -23,7 +23,7 @@ var  openNav = ()=>{
     return(
         <>
     <nav className="navbar navbar-expand-sm navbar-light" onScroll={openNav}>
-        <div className="container" data-aos="fade-down">
+        <div className="container" data-aos="fade-dow">
             <Link className="navbar-brand" to="/"> 
             <img src={logo} alt="" />
             </Link>
@@ -39,14 +39,12 @@ var  openNav = ()=>{
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
                         <Link to="/" className="nav-link"><span data-hover="Home">Home</span></Link>
-                    </li><li className="nav-item">
-                        <Link to="/about" className="nav-link"><span data-hover="About">About</span></Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/project" className="nav-link"><span data-hover="Projects">Projects</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/resume" className="nav-link"><span data-hover="Resume">Resume</span></Link>
+                        <Link to="/resume" className="nav-link"><span data-hover="Resume">Downlaod Resume</span></Link>
                     </li>
 
                 </ul>
