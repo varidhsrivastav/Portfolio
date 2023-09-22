@@ -152,7 +152,6 @@ const TimelineSection = () => {
                 })}
               </div>
             </div>
-
             <div className="col-lg-6 col-12">
               <h2 className="mb-4 mobile-mt-2">Educations & Crtifications</h2>
 

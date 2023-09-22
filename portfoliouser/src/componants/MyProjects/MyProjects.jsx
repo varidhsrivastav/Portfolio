@@ -1,7 +1,6 @@
 import "./MyProjects.css";
 import ProjectData from "./MyProjectData";
 import { NavLink } from "react-router-dom";
-import waweback from "./image/waweback.jpg";
 const MyProjects = () => {
   const projectItem = (project) => {
     const keysss = project.id;
@@ -40,7 +39,6 @@ const MyProjects = () => {
   };
   return (
     <div className="MyProjectMCont">
-    <img src={waweback} className="waweBack" alt="" />
       <div className="container">
         <div className="MyProjCont">
           {ProjectData.filter((project) => {

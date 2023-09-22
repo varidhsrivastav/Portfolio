@@ -16,9 +16,9 @@ const Landingpage = () => {
     <div className='MainLandingPageComponants'>
       <HeroSection/>
       <Tech/>
-      <WhyMe/>
       <MyExperties/>
       <AboutSection/>
+      <WhyMe/>
       <MyProjects/>
       <TimelineSection/>
       <CertificateSec/>

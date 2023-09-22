@@ -44,7 +44,7 @@
 }
 
 .timeline-yr span {
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
   display: block;
@@ -58,16 +58,20 @@
   padding-top: 20px;
   margin-left: 7em;
 }
+.timeline-info h3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .timeline-info span {
-  color: #fff;
+  color: #2ECDA3;
 }
 .timeline-info small {
-  color: #474559;
-  font-size: 16px;
+  color: #fff;
+  font-size: 20px;
   font-weight: bold;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 15px;
 }
 
 .resume {

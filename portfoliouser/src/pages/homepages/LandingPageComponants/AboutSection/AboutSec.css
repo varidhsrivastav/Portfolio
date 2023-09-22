@@ -32,10 +32,10 @@
   .aboutHome .aboutimg {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 20px 0;
   }
   .aboutHome .aboutimg img {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
   }
   .aboutHome .about-homecontent {
